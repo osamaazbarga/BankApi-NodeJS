@@ -1,5 +1,5 @@
 const bankJSON=require('../bank.json');
-
+const fs=require('fs');
 const getUsers=(req,res)=>{
     return res.status(200).json({users:bankJSON})
 }
